@@ -1,0 +1,48 @@
+html {
+  font: 400 18px Arial;
+}
+
+.description {
+  text-align: left;
+  width: 100%;
+  font-size: 0.8em;
+}
+
+/*------------------------------------------------------
+               EMBEDED VIDEO
+------------------------------------------------------*/
+
+#video-cont {
+  max-width: 1420px;
+  width: 100%;
+  padding-top: 100px;
+  display: inline-flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.main-video {
+  width: 65%;
+  text-align: center;
+  flex: 3 1 auto;
+  padding: 2em 1em;
+}
+
+.main-video #inner {
+  height: 0;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+#inner iframe,
+#inner object,
+#inner embed {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border: 0;
+}
